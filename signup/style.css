@@ -1,0 +1,49 @@
+body{
+    background-color:rgb(47, 0, 47);
+}
+.logbar{
+    border-radius:40px;
+    width:500px;
+    height:500px;
+    background-color:white;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:50px;
+    box-shadow:
+    inset 90px 0 150px #f0f,
+    inset -90px 0 150px #0ff; 
+}
+.logtext{
+    display:flex;
+    justify-content:center;
+    padding-top:100px;
+}
+#name{
+    width:250px;
+    height:25px;
+}
+#email{
+    width:250px;
+    height:25px;
+}
+.fontsize{
+    font-size:30px;
+    font-weight: bold;
+    color:rgb(40, 0, 40);
+}
+.button{
+   color:rgb(51, 0, 51);
+   font-weight: bolder;
+    font-size:30px;
+   margin-left:30px;
+   margin-top:70px;
+   border:2px solid rgb(51, 0, 51);
+   border-radius:20px;
+   padding-left:30px;
+   padding-right:30px;
+}
+.button:hover{
+   color:white;
+   background-color:rgb(51,0,51);
+   opacity:70%
+}
